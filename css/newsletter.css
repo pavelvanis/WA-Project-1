@@ -18,6 +18,14 @@ header {
     height: 150px;
 }
 
+header a img {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    height: 20px;
+    width: 20px;
+}
+
 .container h2 {
     margin: 15px 10px;
 }
@@ -65,6 +73,12 @@ footer {
         margin:  0 10px 25px 10px;
         font-size: 20px;      
     }
+    header a img {
+        top: 7px;
+        left: 7px;
+        height: 25px;
+        width: 25px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -102,6 +116,12 @@ footer {
         width: 90px;
         height: 30px;
         font-size: 15px;
+    }
+    header a img {
+        left: 7px;
+        top: 7px;
+        height: 30px;
+        width: 30px;
     }
 }
 
@@ -143,5 +163,9 @@ footer {
     footer {
         font-size: 1.2rem;
         margin-top: 30px;
+    }
+    header a img {
+        height: 35px;
+        width: 35px;
     }
 }
