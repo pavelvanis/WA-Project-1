@@ -1,0 +1,137 @@
+body {
+    padding: unset;
+    margin: unset;
+    background-color: rgb(11, 13, 27);
+    color: rgba(255, 255, 255, 0.8);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    max-width: 1440px;
+}
+
+.background-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+
+.main-image {
+    height: 500px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.main-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-links {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.nav-links a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.main-box h2 {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.main-box-image {
+    position: relative;
+    height: 150px;
+}
+
+.main-box-text {
+    margin: 10px 10px 20px 10px;
+}
+
+.main-box p {
+    margin: 0 0 15px 0 ;
+}
+
+table {
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+@media only screen and (min-width: 425px) {
+    .main-box-image {
+        height: 200px;
+    }
+}
+
+  @media only screen and (min-width: 768px) {
+    .main-box-image {
+        height: 300px;
+    }
+    .main-box-text {
+        margin: 20px 20px 30px 20px;
+    }
+    .main-box h2 {
+        font-size: 35px;
+        bottom: 10px;
+        left: 15px;
+    }
+    .main-box p {
+        margin-bottom: 25px;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .main-image{
+        height: 700px;
+    }
+    .main-box-image {
+        height: 450px;
+    }
+    .nav-links {
+        justify-content: center;
+    }
+    .nav-links a{
+        margin: 0 40px;
+    }
+  }
+
+  @media only screen and (min-width: 1440px) {
+    body {
+        margin: 0 auto;
+    }
+    html {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    .main-box {
+        font-size: 1.3em;
+    }
+    .main-box h2 {
+        font-size: 2.3em;
+    }
+    .nav-links a {
+        font-size: 1.9em;
+        font-weight: 300;
+        padding: 12px 0;
+        margin: 0 60px;
+    }
+  }
